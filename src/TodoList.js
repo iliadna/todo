@@ -28,6 +28,10 @@ class TodoList extends Component {
     e.preventDefault();
   }
 
+  deleteItem(key) {
+    var filteredItems = this.state.items.
+  }
+
   render() {
     return (
       <div className="todoListMain">
